@@ -8,4 +8,4 @@ services:
       - .:/app
     command: python -m http.server 8000
     ports:
-      - "8000:8001"
+      - "8001:8000"
